@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0096ff;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.section-heading {
+  text-align: center;
+  color: #fff;
+  padding: 30px 0;
+  font-size: 2rem;
+  text-shadow: 1px 1px #000;
+}
+
+.section-padding {
+  padding: 20px 0;
+}
+
+/** Navbar Section */
+
+.navbar {
+  color: #fff;
+  height: 6rem;
+  border-bottom: #fff 1px solid;
+  width: 100%;
+}
+
+.logo h1 {
+  text-shadow: 1px 1px #000;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-tab {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-tab li {
+  margin-left: 20px;
+}
+
+.navigation-tab a {
+  text-decoration: none;
+  color: #fff;
+}
+.navigation-tab a:hover {
+  color: coral;
+}
+
+/** End of Navbar Section */
+
+/**  Start of Header Section */
+
+.header {
+  width: 100%;
+  border-bottom: #fff 1px solid;
+  height: 650px;
+}
+
+.header img {
+  max-width: 500px;
+}
+
+.header .container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5em;
+  width: 85%;
+}
+
+/** End of Header Section */
+
+/** Start of Skills Section */
+
+.skills {
+  border-bottom: #fff 1px solid;
+}
+
+.skills h3 {
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+.skills p {
+  line-height: 1.5em;
+}
+
+.skills .box {
+  width: 320px;
+  height: 300px;
+  text-align: center;
+  margin: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 10px 10px;
+}
+
+.skills .box:hover {
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+.skills .boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box p {
+  width: 80%;
+}
+
+/** End of Skills Section */
+
+/** Start of Projects Section */
+
+.projects .project-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects .project-item {
+  width: 85%;
+  height: 420px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 50px;
+  line-height: 1.2em;
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px;
+}
+
+.project-list .project-item:hover {
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.project-item img {
+  width: 95%;
+  height: 250px;
+  align-self: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 5px;
+}
+
+.project-item h3 {
+  padding: 20px;
+}
+
+.project-item p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  align-self: end;
+  margin-bottom: 30px;
+}
+
+.project-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+/** End of Projects Section */
+
+@media (max-width: 950px) {
+  .header .container {
+    flex-direction: column;
+  }
+
+  .header h3 {
+    padding: 30px 30px 0;
+    text-align: center;
+  }
+
+  .header img {
+    height: 460px;
+    margin-bottom: 10px;
+  }
+
+  .skills .box {
+    margin-bottom: 0;
+  }
+
+  .header h3 {
+    width: 100%;
+  }
+
+  .skills .box {
+    margin: 35px auto;
+  }
+
+  .skills .boxes {
+    text-align: center;
+  }
+
+  .projects .project-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .header img {
+    width: 300px;
+    height: 300px;
+  }
+}
