@@ -344,7 +344,8 @@ body {
   -o-border-radius: 50px;
 }
 
-.socials .logo-item .img {
+.socials .logo-item:hover {
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
 
 /*---------------------------------------------------------------- End of Socials Section ----------------------------------------------------------------*/
