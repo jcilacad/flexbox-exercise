@@ -29,54 +29,6 @@ body {
   padding: 20px 0;
 }
 
-@media (max-width: 950px) {
-  .header .container {
-    flex-direction: column;
-  }
-
-  .header h3 {
-    padding: 100px 30px 0;
-    text-align: center;
-  }
-
-  .header img {
-    height: 460px;
-    margin-bottom: 10px;
-  }
-
-  .skills .box {
-    margin-bottom: 0;
-  }
-
-  .header h3 {
-    width: 100%;
-  }
-
-  .skills .box {
-    margin: 35px auto;
-  }
-
-  .skills .boxes {
-    text-align: center;
-  }
-
-  .projects .project-list {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 450px) {
-  .header img {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 100px;
-  }
-
-  .header h3 {
-    font-size: 1rem;
-  }
-}
-
 /*---------------------------------------------------------------- End of GlobalCSS ----------------------------------------------------------------*/
 
 /*---------------------------------------------------------------- Start of Navbar Section ----------------------------------------------------------------*/
@@ -369,3 +321,51 @@ body {
 }
 
 /*---------------------------------------------------------------- End of Socials Section ----------------------------------------------------------------*/
+
+@media (max-width: 950px) {
+  .header .container {
+    flex-direction: column;
+  }
+
+  .header h3 {
+    padding: 100px 30px 0;
+    text-align: center;
+  }
+
+  .header img {
+    height: 460px;
+    margin-bottom: 10px;
+  }
+
+  .skills .box {
+    margin-bottom: 0;
+  }
+
+  .header h3 {
+    width: 100%;
+  }
+
+  .skills .box {
+    margin: 35px auto;
+  }
+
+  .skills .boxes {
+    text-align: center;
+  }
+
+  .projects .project-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .header img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+
+  .header h3 {
+    font-size: 1rem;
+  }
+}
