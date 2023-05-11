@@ -317,7 +317,34 @@ body {
 .socials {
   width: 100%;
   border-bottom: #fff 1px solid;
-  height: 740px;
+  height: 400px;
+}
+
+.socials .logo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.socials .logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  box-shadow: 10px 10px;
+
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.socials .logo-item .img {
 }
 
 /*---------------------------------------------------------------- End of Socials Section ----------------------------------------------------------------*/
