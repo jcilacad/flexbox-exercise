@@ -1,3 +1,5 @@
+/*---------------------------------------------------------------- Start of GlobalCSS ----------------------------------------------------------------*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +29,57 @@ body {
   padding: 20px 0;
 }
 
-/** Navbar Section */
+@media (max-width: 950px) {
+  .header .container {
+    flex-direction: column;
+  }
+
+  .header h3 {
+    padding: 100px 30px 0;
+    text-align: center;
+  }
+
+  .header img {
+    height: 460px;
+    margin-bottom: 10px;
+  }
+
+  .skills .box {
+    margin-bottom: 0;
+  }
+
+  .header h3 {
+    width: 100%;
+  }
+
+  .skills .box {
+    margin: 35px auto;
+  }
+
+  .skills .boxes {
+    text-align: center;
+  }
+
+  .projects .project-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .header img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+
+  .header h3 {
+    font-size: 1rem;
+  }
+}
+
+/*---------------------------------------------------------------- End of GlobalCSS ----------------------------------------------------------------*/
+
+/*---------------------------------------------------------------- Start of Navbar Section ----------------------------------------------------------------*/
 
 .navbar {
   background-color: #0096ff;
@@ -156,9 +208,9 @@ body {
   }
 }
 
-/** End of Navbar Section */
+/*---------------------------------------------------------------- End of Navbar Section ----------------------------------------------------------------*/
 
-/**  Start of Header Section */
+/*---------------------------------------------------------------- Start of Header Section ----------------------------------------------------------------*/
 
 .header {
   width: 100%;
@@ -185,10 +237,9 @@ body {
   width: 85%;
 }
 
-/** End of Header Section */
+/*---------------------------------------------------------------- End of Header Section ----------------------------------------------------------------*/
 
-/** Start of Skills Section */
-
+/*---------------------------------------------------------------- Start of Skills Section ----------------------------------------------------------------*/
 .skills {
   border-bottom: #fff 1px solid;
 }
@@ -235,9 +286,13 @@ body {
   width: 80%;
 }
 
-/** End of Skills Section */
+/*---------------------------------------------------------------- End of Skills Section ----------------------------------------------------------------*/
 
-/** Start of Projects Section */
+/*---------------------------------------------------------------- Start of Projects Section ----------------------------------------------------------------*/
+
+.projects {
+  border-bottom: #fff 1px solid;
+}
 
 .projects .project-list {
   display: flex;
@@ -303,52 +358,14 @@ body {
   color: #000;
 }
 
-/** End of Projects Section */
+/*---------------------------------------------------------------- End of Projects Section ----------------------------------------------------------------*/
 
-@media (max-width: 950px) {
-  .header .container {
-    flex-direction: column;
-  }
+/*---------------------------------------------------------------- Start of Socials Section ----------------------------------------------------------------*/
 
-  .header h3 {
-    padding: 100px 30px 0;
-    text-align: center;
-  }
-
-  .header img {
-    height: 460px;
-    margin-bottom: 10px;
-  }
-
-  .skills .box {
-    margin-bottom: 0;
-  }
-
-  .header h3 {
-    width: 100%;
-  }
-
-  .skills .box {
-    margin: 35px auto;
-  }
-
-  .skills .boxes {
-    text-align: center;
-  }
-
-  .projects .project-list {
-    flex-direction: column;
-  }
+.socials {
+  width: 100%;
+  border-bottom: #fff 1px solid;
+  height: 740px;
 }
 
-@media (max-width: 450px) {
-  .header img {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 100px;
-  }
-
-  .header h3 {
-    font-size: 1rem;
-  }
-}
+/*---------------------------------------------------------------- End of Socials Section ----------------------------------------------------------------*/
