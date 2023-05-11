@@ -384,6 +384,20 @@ body {
   .projects .project-list {
     flex-direction: column;
   }
+
+  .socials {
+    height: 800px;
+  }
+
+  .socials .logo-item {
+    margin: 20px 0;
+    width: 120px;
+    height: 120px;
+  }
+
+  .socials .logo-list {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 450px) {
