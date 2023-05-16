@@ -1,0 +1,24 @@
+{
+  "name": "practice-flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./css/output.css",
+    "watch": "tailwindcss -i ./style.css -o ./css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcilacad/flexbox-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcilacad/flexbox-exercise/issues"
+  },
+  "homepage": "https://github.com/jcilacad/flexbox-exercise#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
