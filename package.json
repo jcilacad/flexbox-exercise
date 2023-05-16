@@ -4,6 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
+    "build": "build",
     "start": "tailwindcss -i ./style.css -o ./css/output.css",
     "watch": "tailwindcss -i ./style.css -o ./css/output.css --watch"
   },
